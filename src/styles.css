@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 100vh;
+}
+
+.flex_contain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.flex_contain div {
+  width: 40%;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.profile_image {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid purple;
+}
+
+.profile_image img {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  padding: 5px 10px;
+  background: transparent;
+  position: relative;
+  width: 100%;
+  border-radius: 40px;
+  background: white;
+}
+
+header i {
+  font-size: 20px;
+  color: purple;
+  display: flex;
+}
+
+header input {
+  border: none;
+  outline: none;
+}
+
+.absolute1 {
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  background: ghostwhite;
+}
+
+#search-bar {
+  width: 85%;
+  padding: 10px;
+  font-size: 16px;
+
+  /* background: transparent; */
+}
+
+.location-list {
+  display: none;
+  gap: 10px;
+}
+
+.location-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.location-card h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.location-card p {
+  color: #555;
+}
+
+.map-container {
+  height: 100%;
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.absolute2 {
+  position: absolute;
+  bottom: 4%;
+  left: 2%;
+  right: 2%;
+  padding: 15px;
+  background-color: white;
+}
+
+.swiper-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.location-details {
+  padding: 15px;
+}
+
+.location-details h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.location-details p {
+  font-size: 14px;
+  color: #555;
+}
+
+.swiper-pagination-bullet {
+  background: #333;
+}
