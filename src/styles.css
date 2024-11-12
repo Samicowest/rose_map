@@ -23,7 +23,7 @@ body {
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  height: 98vh;
+  height: 100vh;
 }
 
 .flex_contain {
